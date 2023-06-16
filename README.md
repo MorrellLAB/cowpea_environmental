@@ -1,15 +1,11 @@
-# Cowpea Environmental Association
-
-## UCR collaborators cowpea GWAS
-[cowpea_gwas](https://github.com/cjfiscus/cowpea_gwas)
-
-
-
 # Cowpea adaptation to high temperatures in Africa
  
 Detect candidate genes for adaptation to high temperature in African cowpea using via environmental genome wide association study (envGWAS).
 
 Akakpo R, Pacheco J, Akinmade H, Rios E F, Boote KJ, Volz , Boukar O, Morrell PL, Muñoz-Amatriaín M.
+
+## UCR collaborators cowpea GWAS
+[cowpea_gwas](https://github.com/cjfiscus/cowpea_gwas)
 
 ## Description
 Using SNP data available from IITA Core accessions, structure of population analysis in ~600 accessions of African cowpea will be performed. Various population Genetic analysis including population-based estimate of recombination rate  [Ped/pop method](doi:10.1101/gr.067181.107). Using the same data we will carrie out environmental genome wide association study . 
