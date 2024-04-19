@@ -101,7 +101,8 @@ else:
     data_files = sys.argv[2:]
     main(snps_file, data_files)
 
-
+'''
+#tests
 if __name__ == '__main__':
 
     snp_file = 'sample_alt_SNP2.txt'
@@ -109,4 +110,4 @@ if __name__ == '__main__':
 
     main(snp_file, data_files)
 
-  
+'''
