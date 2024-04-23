@@ -4,6 +4,5 @@
 #St. Paul - UMN 
 #dir=getwd() #: set directory in the output folder
 #setwd(paste(dir,"/unCorrAllFreq", sep=""))
-source("~/MorrellLab Dropbox/Roland Akakpo/IITA_CORE_DATA/cowpea_gwas-main/STRUCTURES/STRUCTURE_PITCHARD/Script/struct2qtab.R")
-struct2qtab("../../Data/cowpea_snp_for_structure_pruned_data.recode.strct_in","cowpea_struct_corr_all-freq_k5_run4_f")
-
+source("/Users/rakakpo/MorrellLab\ Dropbox/Roland\ Akakpo/Cowpea_Environmental_assoc/STRUCTURES/STRUCTURE_PITCHARD/Script/struct2qtab.R")
+struct2qtab("Cowpea_GF_data_for_struct.recode.strct_in","/Users/rakakpo/MorrellLab\ Dropbox/Roland\ Akakpo/Cowpea_Environmental_assoc/STRUCTURES/STRUCTURE_PITCHARD/With_Admix/CorrAllFreq/Output/cowpea_struct_corr_all-freq_k5_run2_f")

@@ -1,4 +1,5 @@
 # This R function is used to extract ancestry probability from structure analysis output
+#Is used is the convert_Struct2qtab.R script
 # rakakpo
 # 11/04/2022
 #St. Paul - UMN 
