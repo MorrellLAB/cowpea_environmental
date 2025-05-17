@@ -2,7 +2,8 @@
  
 Detect candidate genes for adaptation to high temperature in African cowpea using via environmental genome wide association study (envGWAS).
 
-Akakpo R, Pacheco J, Akinmade H, Rios E F, Boote KJ, Volz , Boukar O, Morrell PL, Muñoz-Amatriaín M.
+* The current manuscript is available as:
+Akakpo R, Lee EJ, Pacheco JB, Rios EF, Kantar MB, Ousmane B, Volz KM, Akinmade H, Getino L, Boote KJ, et al. 2025. Identification of genetic variation associated with high-temperature tolerance in cowpea. bioRxiv. doi:10.1101/2025.04.09.647789.abstract.
 
 ## UCR collaborators cowpea GWAS
 [cowpea_gwas](https://github.com/cjfiscus/cowpea_gwas)
