@@ -1,7 +1,7 @@
 # _F_<sub>ST</sub> outliers analysis for identification of candidate accessions
 
 
-* Only the _F_<sub>ST</sub> comparison between Western African accessions north and south of 12˚N latitude appears appropriate for outlier analysis. The _F_<sub>ST</sub> values in our other comparisons are inflated, suggesting demographic effects (probably during introduction of the domesticate) have skewed the comparisons.
+* Only the _F_<sub>ST</sub> comparison between Western African accessions north and south of 12˚N latitude appears appropriate for outlier analysis. The _F_<sub>ST</sub> values in our other comparisons are inflated, suggesting demographic effects (probably during the introduction of the domesticate) have skewed the comparisons.
 * To identify the top 0.001 portion (or 0.%) of the values, we discarded NA values and ended up with the 44 highest values in the sample.
 
 ```bash
@@ -72,7 +72,7 @@ etc.
 > 11	2_17698	39316305	0.398862745375085
 > 11	2_19641	39324907	0.428637587685224
 
-* This _F_<sub>ST</sub>  analysis compared samples in Western Africa from above and below 12˚N latitude. The nature of the environmental factors that could be associated with large allele frequency differences in unknown, but they differ by temperature and precipitation values.
+* This _F_<sub>ST</sub>  analysis compared samples in Western Africa from above and below 12˚N latitude. The nature of the environmental factors associated with large allele frequency differences is unknown, but they vary with temperature and precipitation.
 * Path to Bioclim temperature and precipitation values. Run the sample rank tool for Fst outliers.
 B01=/scratch.global/pmorrell/Cowpea/cowpea_environmental/03_Analyses/Cowpea_Bioclim01.txt
 B05=/scratch.global/pmorrell/Cowpea/cowpea_environmental/03_Analyses/Cowpea_Bioclim05.txt
@@ -89,7 +89,7 @@ bash Sample_selection.sh Fst_1_2_positions.txt cowpea_490_stats_AA_rename.vcf.gz
 [//]: Add the actual command to produce the environmental ranks here!
 python3 
 
-* For sampling purposes, we are only interested in _F_<sub>ST</sub> outliers that fall within our desirable sampling range, roughly 8˚N to 17˚N at the edge of the range limit. The list produced includes only those variants accessions in that geography 
+* For sampling purposes, we are only interested in _F_<sub>ST</sub> outliers that fall within our desirable sampling range, roughly 8˚N to 17˚N at the edge of the range limit. The list produced includes only those variant accessions in that geography 
 grep -F -f lat_8-17.txt sample_rank.txt >sample_rank_lat_8-17N.txt 
 * 
 

@@ -1,13 +1,13 @@
 # Temperature-related hits
 
-Looking carefully at all of the Bioclim variables, we noted that for temperature, Bioclim 01, 05, and 08 most naturally define environmental conditions with high temperatures during the likely growing season. Other variables like BIO3 (Isothermality, which is the  rescaled quotient of two complex variables) or BIO06 (Min Temperature of Coldest Month) don't really help to determine if a sample ranks highly in terms of occurring in a high-temperature growing environment. So, the two files below include SNP hits for temperature, with BIO1, BIO5, and BIO8 ranks for each accession (out of 580 total), and then in the final column, an indication if the variant we need to track is the reference "0" or alternate "1" in the IT97K reference assembly.
+Looking carefully at all of the Bioclim variables, we noted that for temperature, Bioclim 01, 05, and 08 most naturally define environmental conditions with high temperatures during the likely growing season. Other variables, like BIO3 (Isothermality, the rescaled quotient of two complex variables) or BIO06 (Min Temperature of Coldest Month), do not really help determine whether a sample ranks highly for occurring in a high-temperature growing environment. So, the two files below include SNP hits for temperature, with BIO1, BIO5, and BIO8 ranks for each accession (out of 580 total), and then in the final column, an indication if the variant we need to track is the reference "0" or alternate "1" in the IT97K reference assembly.
 BIO1 = Annual Mean Temperature
 BIO5 = Max Temperature of Warmest Month
 BIO8 = Mean Temperature of Wettest Quarter
 All temperature hits: https://www.dropbox.com/scl/fi/ye8wz20qm6wvarrdt6hsd/sample_rank_temp.txt?rlkey=l990ttfvnq6l8nyd51bctxmd8&dl=0
 Rare temperature hits: https://www.dropbox.com/scl/fi/ay4s148hj0is4uja3t9bf/sample_rank_temp_IITA_rare.txt?rlkey=fmpzetjwfamu3s58tnpgro9n0&dl=0
 
-In a similar manner, BIO12, BIO13, and BIO16 are the most helpful for understanding which samples occur in relatively dry conditions during the likely growing period in dry environments.
+Similarly, BIO12, BIO13, and BIO16 are the most helpful for understanding which samples occur in relatively dry conditions during the likely growing period in dry environments.
 BIO12 = Annual Precipitation
 BIO13 = Precipitation of Wettest Month
 BIO16 = Precipitation of Wettest Quarter
