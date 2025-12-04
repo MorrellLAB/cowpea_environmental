@@ -1,0 +1,4 @@
+SNP	Num_Samples	Mean_Rank_Var1	Mean_Rank_Var2	Mean_Rank_Var3	Mean_Rank_Temperature	Friedman_Stat	P_Value	Kendall_W	Effect_Size	Lowest_Rank_Var	Lowest_Rank_Class
+2_30218	11	11.64	9.55	10.36	10.52	1.6757	0.432645	0.0247	negligible	2	Temperature
+2_34849	15	14.87	10.07	14.13	13.02	12.8475	0.001623	0.0796	negligible	2	Temperature
+2_35005	11	24.27	22.00	23.82	23.36	NA	1.000000	0.0321	negligible	2	Temperature

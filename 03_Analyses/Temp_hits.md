@@ -1,6 +1,6 @@
 # Temperature-related hits
 
- Looking carefully at all of the Bioclim variables, we noted that for temperature, Bioclim 01, 05, and 08 most naturally define environmental conditions with high temperatures during the likely growing season. Other variables like BIO3 (Isothermality, which is the  rescaled quotient of two complex variables) or BIO06 (Min Temperature of Coldest Month) don't really help to determine if a sample ranks highly in terms of occurring in a high-temperature growing environment. So, the two files below include SNP hits for temperature, with BIO1, BIO5, and BIO8 ranks for each accession (out of 580 total), and then in the final column, an indication if the variant we need to track is the reference "0" or alternate "1" in the IT97K reference assembly.
+Looking carefully at all of the Bioclim variables, we noted that for temperature, Bioclim 01, 05, and 08 most naturally define environmental conditions with high temperatures during the likely growing season. Other variables like BIO3 (Isothermality, which is the  rescaled quotient of two complex variables) or BIO06 (Min Temperature of Coldest Month) don't really help to determine if a sample ranks highly in terms of occurring in a high-temperature growing environment. So, the two files below include SNP hits for temperature, with BIO1, BIO5, and BIO8 ranks for each accession (out of 580 total), and then in the final column, an indication if the variant we need to track is the reference "0" or alternate "1" in the IT97K reference assembly.
 BIO1 = Annual Mean Temperature
 BIO5 = Max Temperature of Warmest Month
 BIO8 = Mean Temperature of Wettest Quarter
@@ -41,7 +41,7 @@ grep -F -f $IITA sample_rank_heat.txt
 
 cd /panfs/jay/groups/9/morrellp/rakakpo/Cowpea_Environment_Association/envGWAS/Sample_Selection/Ranking_PREC 
 grep -F -f $IITA sample_rank_prec.txt >sample_rank_prec_IITA_rare.txt
-[//]: Below are the number of lines that carry each of the SNPs that are relatively rare in the IITA breedling lines._
+[//]: Below are the number of lines that carry each of the SNPs that are relatively rare in the IITA breeding lines._
 cut -f 3 sample_rank_prec_IITA_rare.txt | uniq -c   | sort -k1,1nr                                                                                                                                
 > 147		2_38352
 > 86		2_14879

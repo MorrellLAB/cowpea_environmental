@@ -1,0 +1,6 @@
+0 Temperature
+1 Temperature
+2 Temperature
+3 Precipitation
+4 Precipitation
+5 Precipitation
