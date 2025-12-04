@@ -17,8 +17,7 @@ It requires R_envGWAS.V4.R, Genotype and Phenotype Data.
 Please fill out user provided argument fields and submit script as job.
 
 # 4.	R_envGWAS.V4.R
-This is the main script to perform envGWAS. It uses three GWAS methods: LFMM, BLINK and FarmCPU. Only BLINK and FarmCPU interested us. 
-Line 34: Set the number of counfounding factors to estimate. That is accessing by PCA or Structure
+This is the main script to perform envGWAS. It uses two GWAS methods: BLINK and FarmCPU. The line 34: Set the number of counfounding factors to estimate. That is accessing by PCA or Structure
 Lines 105 and 106: Run Blink and Farmcpu Gwas. The "Major.allele.zero = TRUE" Flag indicate we want the effect computed to be respective to the minor alleles.
 #How do the Minor alleles frequency is calculated?
 Before considering minor alleles in the dataset, Gapit calculate the allele frequencies for each variant in the dataset. It can do this by counting the number of 0 i.e. homozygous reference alleles, the number of 1 I.e.  heterozygous alleles, and the number of 2 i.e. homozygous alternate alleles and dividing them by the total number of alleles for each variant. This will return the frequency of the minor allele (the 1 or 2) in the population. 
