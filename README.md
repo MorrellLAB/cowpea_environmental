@@ -50,13 +50,6 @@ Estimate FST for each SNP between subgroups (based on structure subgroups and/or
 
 3. LD of "hits" from iSelect to resequencing can use 36 cowpea [SNP calls](https://github.com/MorrellLAB/Env_Assoc/tree/master/script/LD_Analysis)
 
-### Population Genetic analysis
-
-1. Run Mosdepth for "callable regions" 
-2. Calculate average per site heterozygosity (pi) using [Pixy](https://pixy.readthedocs.io/en/latest/)
-3. Do Population-based estimate of recombination rate [Ped/pop method](doi:10.1101/gr.067181.107)
-4. Infer population history using [SMC++ methods](https://doi.org/10.1038/ng.3748)
-
 ## Maps of collection localities
 
 * Collection locality & temperature
