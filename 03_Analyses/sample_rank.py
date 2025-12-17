@@ -186,7 +186,7 @@ def write_stats_output(stats_by_snp, num_vars, var_classes=None,
             lowest_var = mean_ranks.index(min(mean_ranks)) + 1
             stat_str = (f"{stats['stat']:.4f}" if stats['stat']
                         else "NA")
-            pval_str = (f"{stats['pval']:.6f}" if stats['pval']
+            pval_str = (f"{stats['pval']:.2e}" if stats['pval']
                         else "NA")
             w_str = (f"{stats['kendall_w']:.4f}" if
                      stats['kendall_w'] is not None else "NA")
@@ -340,3 +340,4 @@ if __name__ == '__main__':
     main(snp_file, data_files)
 
 '''
+
