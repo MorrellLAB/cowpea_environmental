@@ -1,5 +1,4 @@
 # Kendall Tau–b SNP–Environment Association (Cowpea)
-
 This workflow compute per SNPs allele frequencies correlation with environmental variables using **Kendall’s tau-b statistic**.
 
 ## Overview
