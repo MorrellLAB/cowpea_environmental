@@ -9,9 +9,9 @@
 #SBATCH -p msismall
 #SBATCH -o %j.out
 #SBATCH -e %j.err
-#script writed by Roland A. (10/22/2025)
+#script written by Roland A. (10/22/2025)
 
-#This script run WSZA on kendall tau-b correlation
+#This script run WZA on kendall tau-b correlation
 
 set -e
 set -o pipefail
