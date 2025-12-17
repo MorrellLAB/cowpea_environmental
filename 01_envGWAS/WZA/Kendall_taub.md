@@ -13,8 +13,18 @@ This workflow compute per SNPs allele frequencies correlation with environmental
   **Genotypes**: PLINK-formatted files
   **Environment/Phenotypes**: CSV file with environmental variables
   **Script**: `kendall_tau_corr_env_test.py`
+  
+## Outputs
+Per-SNP correlation results for each window size:
+
+  * Cowpea_kendall_tau_10000_perSNP.csv
+  * Cowpea_kendall_tau_20000_perSNP.csv
+    
+These per-SNP results are used as input for Windowed Z-score Analysis (WZA) to identify genomic regions enriched for environmental associations.
 
 ## Running the Analysis
 
 ```bash
 sbatch run_cowpea_kendall_wza.sh
+
+
