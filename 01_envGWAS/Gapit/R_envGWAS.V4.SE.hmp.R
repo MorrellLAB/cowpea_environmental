@@ -3,11 +3,10 @@
 #=============================================
 
 #!/usr/bin/env Rscript
-# Description: This scripy Perform multiples envGwas for cowpea Bio-varianbles
+# Description: This script Performs multiples envGwas for cowpea Bio-variables
 # rakakpo
 # 2022-15-12
 # Launching libraries and functions
-
 
 #Libraries
 library(pacman)
